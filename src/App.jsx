@@ -13,6 +13,8 @@ function App() {
     window.HSStaticMethods.autoInit();
   }, [location.pathname]);
 
+  // added;
+
   return (
     <div>
       <Home />
