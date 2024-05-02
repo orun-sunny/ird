@@ -3,7 +3,8 @@ const Settings = () => {
     <div className="bg-white ">
       {/* Arabic front  */}
       <div className="mb-3">
-        <label className="block text-sm font-medium mb-2 dark:text-white">
+        <h1 className="text-center"> সেটিংস</h1>
+        <label className="block py-4 text-sm font-medium mb-2 dark:text-white">
           আরবি ফন্ট সিলেক্ট করুন
         </label>
         <select className="py-3 px-4 pe-9 block w-full border rounded-lg text-sm focus:border focus:ring-slate-200 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600">
