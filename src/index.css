@@ -1,0 +1,61 @@
+/* Google fonts  */
+
+/**
+  Poppins,Rubik,"Noto Sans Bengali
+
+**/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* font-family: "Noto Sans Bengali", sans-serif; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.rubik-font {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.noto-sans-bengali {
+  font-family: "Noto Sans Bengali", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* Define scrollbar track */
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+/* Define scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #dddddd; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Rounded corners of the scrollbar thumb */
+}
+
+/* Define scrollbar track when hovered */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888686; /* Color of the scrollbar thumb when hovered */
+}
+.clip-polygon {
+  aspect-ratio: 1;
+  clip-path: polygon(
+    92.49% 76.35%,
+    48.43% 99.98%,
+    5.93% 73.63%,
+    7.51% 23.65%,
+    51.57% 0.02%,
+    94.07% 26.37%
+  );
+}
+
+
